@@ -1,0 +1,218 @@
+{
+    "editor.fontSize": 16,
+    "window.zoomLevel": 0,
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "java.project.importHint": false,
+    "java.requirements.JDK11Warning": false,
+    "java.configuration.checkProjectSettingsExclusions": false,
+    "[dart]": {
+        "editor.formatOnSave": true,
+        "editor.formatOnType": true,
+        "editor.rulers": [
+            80
+        ],
+        "editor.selectionHighlight": false,
+        "editor.suggest.snippetsPreventQuickSuggestions": false,
+        "editor.suggestSelection": "first",
+        "editor.tabCompletion": "onlySnippets",
+        "editor.wordBasedSuggestions": "off"
+    },
+    "workbench.startupEditor": "none",
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "files.autoSave": "afterDelay",
+    "editor.wordWrap": "on",
+    "editor.tabSize": 2,
+    "cmake.showOptionsMovedNotification": false,
+    "tabnine.experimentalAutoImports": true,
+    "files.autoGuessEncoding": true,
+    "makefile.configureOnOpen": true,
+    "explorer.confirmDelete": false,
+     "code-runner.runInTerminal": true,
+    "workbench.editor.enablePreview": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "editor.codeActionsOnSave": {},
+    "vim.easymotion": true,
+    "vim.sneak": true,
+    "vim.useSystemClipboard": true,
+    "vim.leader": "<space>",
+    "vim.digraphs": {},
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<leader>",
+                "<C-r>"
+            ],
+            "commands": [
+                "workbench.action.openRecent",
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "<C-w>"
+            ],
+            "commands": [
+                "workbench.action.closeActiveEditor",
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "<C-b>"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility",
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "<C-'>"
+            ],
+            "commands": [
+                "workbench.action.toggleAuxiliaryBar",
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "<C-f>"
+            ],
+            "commands": [
+                "actions.find",
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "f"
+            ],
+            "commands": [
+                "editor.action.formatDocument",
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "f",
+                "i"
+            ],
+            "commands": [
+                "python.sortImports",
+            ],
+        },
+        {
+            "before": [
+                "<leader>",
+                "<C-a>"
+            ],
+            "commands": [
+                "editor.action.selectAll"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "<C-c>"
+            ],
+            "commands": [
+                "editor.action.clipboardCopyAction"
+            ]
+        },
+        // insert mode focus on terminal
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "commands": [
+                "workbench.action.terminal.toggleTerminal"
+            ]
+        }
+    ],
+    "vim.insertModeKeyBindings": [],
+    "vim.insertModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "j",
+                "k"
+            ],
+            "after": [
+                "<ESC>"
+            ]
+        },
+        // insert mode focus on terminal
+        {
+            "before": [
+                "<C-j>"
+            ],
+            "commands": [
+                "workbench.action.terminal.toggleTerminal"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "J"
+            ],
+            "after": [
+                "5",
+                "j"
+            ]
+        },
+        {
+            "before": ["H"],
+            "commands": [":tabprev"]  // 向左切换标签页
+        },
+        {
+            "before": ["L"],
+            "commands": [":tabnext"]  // 向右切换标签页
+        },
+        {
+            "before": [
+                "K"
+            ],
+            "after": [
+                "5",
+                "k"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "j"
+            ],
+            "after": [
+                "J"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "t",
+                "n"
+            ],
+            "commands": [
+                ":tabnext"
+            ]
+        },
+        {
+            "before": [
+                "<Leader>",
+                "t",
+                "p"
+            ],
+            "commands": [
+                ":tabprev"
+            ]
+        },
+    ],
+    "lldb.suppressUpdateNotifications": true,
+    "vim.disableExtension": true,
+    "vim.commandLineModeKeyBindingsNonRecursive": [
+    
+    ],
+
+}
